@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class GerenciadorTarefas {
-    private List<Tarefa> tarefas = new ArrayList<>(); // Lista de tarefas
+    private List<Tarefa> tarefas = new ArrayList<>(); // <------ Lista de tarefas (treinando)
 
     public void adicionarTarefa(String descricao) {
         tarefas.add(new Tarefa(descricao));
@@ -24,6 +24,6 @@ public class GerenciadorTarefas {
     }
 
     public List<Tarefa> getTarefas() {
-        return tarefas; // Retorna a lista de tarefas
+        return tarefas;
     }
 }
